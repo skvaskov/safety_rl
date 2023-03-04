@@ -26,6 +26,11 @@ register(
 )
 
 register(
+    id="double_integrator-v1",
+    entry_point="gym_reachability.gym_reachability.envs:DoubleIntegratorEnv"
+)
+
+register(
     id="dubins_car_pe-v0",
     entry_point="gym_reachability.gym_reachability.envs:DubinsCarPEEnv"
 )
